@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+
+}
+
+
+.navBar {
+    position: absolute;
+    width: 100%;
+    height: min(90px,60vh);
+    background-color: F9F9F9;
+    border-width:4;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.infoHandler{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex: 3;
+}
+.searchHandler{
+    display: flex;
+}
+.loginHandler{
+    display: flex;
+}
+.navBar a{
+    flex:1;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.logoHandler{
+    display: contents;
+    width: 90;
+    height: 90;
+}
+.searchContainer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.searchHandler{
+display: flex;
+align-items: center;
+}
+.textInput{
+    border: radius 11px;
+    border-color: black;
+    padding: 0 1rem;
+}
+.button{
+    width: 131px;
+    height: 35px;
+    background-color: #6A85E3;
+    
+}
