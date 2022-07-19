@@ -13,14 +13,17 @@ export default function NavBar(){
           <a>MORE</a>
           <a>CONTACT US</a>
         </div>
-        <div className="searchContainer">
          <div className="searchHandler" >
           <input classname='textInput' type='text' placeholder='Search Here...'/>
-          <button className='button'>SEARCH</button>
+          <button className='buttonSearch'>SEARCH</button>
          </div>
 
-        </div>
-        <div className="loginHandler">login</div>
+        <div className="loginHandler">
+            <a>Log in</a>
+            <button>
+              <p>SIGN UP</p>
+            </button>
+          </div>
 
   
       </nav>
