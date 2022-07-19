@@ -3,7 +3,7 @@
     position: absolute;
     width: 100%;
     height: min(90px,60vh);
-    background-color: F9F9F9;
+    background-color: #F9F9F9;
     border-width:4;
     color:black;
     display: flex;
