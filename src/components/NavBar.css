@@ -41,6 +41,14 @@
     justify-items: center;
 }
 
+.loginHandler a{
+    width: 45px;
+    height: 19px;
+    font-size: 14px;
+    color: #535252;
+
+}
+
 .loginHandler button{
     width: 90px;
     height: 28px;
