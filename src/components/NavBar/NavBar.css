@@ -1,67 +1,114 @@
-
-.navBar {
-    position: absolute;
+* {
+    box-sizing: border-box;
+  }
+  
+  .navBar {
     width: 100%;
-    height: min(90px,60vh);
-    background-color: #F9F9F9;
-    border-width:4;
-    color:black;
+    height: min(90px, 30vh);
+    padding: 0 20px;
+    background-color: #f9f9f9;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-}
-.infoHandler{
+  }
+  .logoHandler {
+    display: contents;
+    width: min(90px, 30vw);
+    height: auto;
+  }
+  
+  .infoHandler {
     height: 100%;
+  }
+  
+  .navBar a {
+    flex: 1;
+    height: 100%;
+    min-width: max-content;
+    margin: 0 10px;
+    font-size: clamp(14px, 40vw, 20px);
+  }
+  
+  .searchHandler {
+    height: 35px;
+    width: min(400px, 80vw);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #6a85e3;
+    border-radius: 11px 7px 7px 11px;
+    overflow: hidden;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  .searchHandler input {
+    height: 100%;
+    width: 75%;
+    padding: 15px;
     display: flex;
     align-items: center;
-    flex: 3;
-}
-
-
-.navBar a{
-    flex:1;
+    border-radius: 11px;
+    border: 0.75px solid;
+    border-color: black;
+  }
+  .searchHandler button {
+    width: 25%;
     height: 100%;
-    padding: 0 10px;
-    font-size: 20px;
-    line-height: 24px;
-}
-
-.searchHandler{
-    height: 100%;
-    display: flex;
-
-}
-
-
-.loginHandler{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-items: center;
-}
-
-.loginHandler a{
-    width: 45px;
-    height: 19px;
-    font-size: 14px;
-    color: #535252;
-
-}
-
-.loginHandler button{
-    width: 90px;
-    height: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #6A85E3;
-    border: 1px solid #000000;
-    border-radius: 7px;
-    
-}
-.loginHandler button p {
-    font-size: 14px;
-    color: #FFFFFF;
+    background-color: #6a85e3;
+    border-color: transparent;
     font-weight: 600;
-}
+    color: white;
+    font-size: clamp(8px, 80vw, 14px);
+  }
+  
+  .loginHandler {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .loginHandler a {
+    height: 28px;
+    width: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: #535252;
+  }
+  
+  .loginHandler button {
+    height: 28px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6a85e3;
+    border: 0.5px solid #000000;
+    border-radius: 7px;
+  }
+  .loginHandler button p {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 5px;
+  }
+  .profileHandler {
+    height: 100%;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+  }
+  .profileHandler a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: #535252;
+  }

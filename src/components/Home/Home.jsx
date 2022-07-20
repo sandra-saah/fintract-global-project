@@ -1,10 +1,11 @@
 import React from "react";
 import './Home.css';
 
+
 const Home=()=>{
     return (
-        <div className="home">Home
-                <div className="chatBox">ChatBox Vector</div>
+        <div className="home">
+                <img className="vector" src="/images/Vector.png"/>
                     <div className="financeApp">
                         <div className="textHandler">
                             <h1>FINTRACT GLOBAL</h1>
