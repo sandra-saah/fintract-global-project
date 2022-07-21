@@ -19,11 +19,15 @@
   
   .infoHandler {
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
   }
   
-  .navBar a {
+  .infoHandler a {
     flex: 1;
-    height: 100%;
+    cursor: pointer;
     min-width: max-content;
     margin: 0 10px;
     font-size: clamp(14px, 40vw, 20px);
@@ -54,6 +58,7 @@
     width: 25%;
     height: 100%;
     display: flex;
+    cursor: pointer;
     align-items: center;
     justify-content: center;
     background-color: #6a85e3;
@@ -71,10 +76,13 @@
   }
   
   .loginHandler a {
+    flex:1;
     height: 28px;
     width: 35px;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
+    padding: 5px;
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -82,11 +90,13 @@
   }
   
   .loginHandler button {
+    flex:1;
     height: 28px;
     width: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     background-color: #6a85e3;
     border: 0.5px solid #000000;
     border-radius: 7px;
@@ -101,12 +111,14 @@
     height: 100%;
     display: flex;
     margin: 20px;
+    cursor: pointer;
     align-items: center;
   }
   .profileHandler a {
     font-weight: 400;
     font-size: 20px;
     line-height: 19px;
+
     display: flex;
     align-items: center;
     justify-content: end;

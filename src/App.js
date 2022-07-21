@@ -1,15 +1,12 @@
-import './App.css';
-import NavBar from './components/NavBar/NavBar';
-import LoggedOut from './pages/LoggedOut';
-
-
+import LoggedOut from "./pages/LoggedOut";
+import LoggedIn from "./pages/LoggedIn";
 
 function App() {
   return (
     <>
-      <LoggedOut/>
+      <LoggedOut />
+      <LoggedIn />
     </>
-    
   );
 }
 
